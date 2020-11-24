@@ -5,5 +5,4 @@ import calendar
 
 yy = int(input("Enter Year: "))  # year
 mm = int(input("Enter Month: "))    # month
-space = 10
-print(calendar.month(yy, mm, space))
+print(calendar.month(yy, mm, ))
