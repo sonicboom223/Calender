@@ -2,7 +2,7 @@
 
 # importing calendar module
 import calendar
-
+space = 10
 yy = int(input("Enter Year: "))  # year
 mm = int(input("Enter Month: "))    # month
-print(calendar.month(yy, mm, ))
+print(calendar.month(yy, mm, space ))
